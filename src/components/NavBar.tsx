@@ -104,7 +104,7 @@ const NavBar = ({ toggleSideNav = 0 }) => {
                   className="ml-2 text-2xl align-middle cursor-pointer select-none"
                   onClick={homeClick}
                 >
-                  {"Nottit"}
+                  {"nottit"}
                 </h1>
               </a>
             </Link>

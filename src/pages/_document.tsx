@@ -13,7 +13,7 @@ class MyDocument extends Document {
         <Head>
           <meta
             name="description"
-            content="Browse Reddit better with Nottit. Grid views, single column mode, galleries, and a number of post styles. Login with Reddit to see your own subs, vote, and comment. Open source. "
+            content="Fuck around Reddit more efficently and without ads with Nottit. Grid views, single column mode, galleries, and a number of post styles. Login with Reddit to see your own subs, vote, and comment. Open source. "
           ></meta>
 
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
