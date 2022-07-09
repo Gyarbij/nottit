@@ -28,17 +28,6 @@ const ChangeLogPage = ({ changelog }) => {
         </p>
         <div className="flex items-center justify-between ">
           <a
-            href="https://ko-fi.com/K3K47IYH1"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/61e11e22d8ff4a5b4a1b3346_Supportbutton-1-p-500.png"
-              alt="Buy Me a Coffee at ko-fi.com"
-              className="h-10 transition-all border rounded-md border-th-border hover:scale-110"
-            />
-          </a>
-          <a
             href="https://github.com/Gyarbij/nottit"
             target="_blank"
             rel="noreferrer"

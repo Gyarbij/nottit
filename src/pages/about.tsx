@@ -15,14 +15,15 @@ const AboutPage = ({ changelog }) => {
       <div className="h-full text-justify text-th-text ">
         <div className="flex flex-col justify-center max-w-xl min-h-full gap-4 mx-auto space-y-1 overflow-y-scroll scrollbar-none ">
           <p className="">
-            Nottit is a web app for Reddit. Follow subreddits and users locally
+            Nottit is a web app for Reddit that gets rid off all the extra
+            curicular bullshit that's taken over the site. Follow subreddits and users locally
             or login with your Reddit account to vote, comment, and manage your
             existing subscriptions.
           </p>
 
           <p className="">
-            This is an independent site not affiliated with Reddit. All content
-            on this site is retrieved from the public Reddit API.
+            This site not affiliated with Reddit. All content
+            on this site is fetched from the public [Reddit API](https://www.reddit.com/dev/api/).
           </p>
 
           <p className="">
@@ -40,9 +41,9 @@ const AboutPage = ({ changelog }) => {
             or contact me at{" "}
             <a
               className={link}
-              href="mailto: dev@nottit.com"
+              href="mailto: gyarbij@pm.me"
             >
-              dev@nottit.com
+              gyarbij@pm.me
             </a> for anything else.
           </p>
           <p className="">
@@ -56,14 +57,6 @@ const AboutPage = ({ changelog }) => {
         </div>
         <div className="absolute left-0 w-full bottom-5 sm:bottom-20">
           <div className="flex items-center justify-between max-w-xl mx-4 sm:mx-auto">
-            <a
-              href="https://ko-fi.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-
-              />
-            </a>
             <a
               href="https://github.com/Gyarbij/nottit"
               target="_blank"

@@ -40,7 +40,7 @@ const index = ({ session, query, postData, user }) => {
   return (
     <div className="overflow-x-hidden ">
       <Head>
-        <title>nottit · a web app for Reddit </title>
+        <title>nottit · better Reddit </title>
         <meta
           name="description"
           content="Browse Reddit better with Nottit. No fucking ads, grid views, single column mode, galleries, and a number of post styles. Login with Reddit to see your own subs, vote, and comment. Open source."
