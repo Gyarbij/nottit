@@ -5,7 +5,7 @@ A web client for Reddit with authenticated logins and a variety of browsing opti
 
 - Secure logins with Reddit to enable voting, commenting, managing your subreddits and multireddits (aka feeds), and access to your personal front page. 
 - 'Offline mode' to follow subreddits and manage multis locally without login. Autogenerates a personal front page. 
-  - Visit your [subreddits multi](https://www.reddit.com/subreddits) and copy the multireddit link. Replace 'reddit' with 'troddit' in the URL and then use the 'Join All' option to quickly follow all subs locally. 
+  - Visit your [subreddits multi](https://www.reddit.com/subreddits) and copy the multireddit link. Replace 'reddit' with 'nottit' in the URL and then use the 'Join All' option to quickly follow all subs locally. 
 - Search Reddit for posts or subreddits quickly with auto-complete. 
 - Filter posts by type (Images, Video/GIFs, Links, Self)  
 - View posts in single column, custom multi-column with a grid-masonry layout, or a simple row mode. All with infinite-scrolling. 
@@ -50,7 +50,7 @@ The redirect uri should match the REDDIT_REDIRECT variable.
 
 ```sh
 docker pull gyarbij/nottit
-docker run -d --name troddit -p 3000:3000 gyarbij/nottit
+docker run -d --name nottit -p 3000:3000 gyarbij/nottit
 ```
 
 Alternatively for arm64: 
@@ -67,7 +67,7 @@ build the image.
 
 ```sh
 git clone https://github.com/gyarbij/nottit
-cd troddit
+cd nottit
 docker build . -t nottit
 ```
 
