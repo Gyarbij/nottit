@@ -169,9 +169,9 @@ const MyMasonic = ({
     context.postOpen,
   ]);
 
-  const [domain, setDomain] = useState("www.troddit.com");
+  const [domain, setDomain] = useState("nottit.com");
   useEffect(() => {
-    setDomain(window?.location?.hostname ?? "www.troddit.com")
+    setDomain(window?.location?.hostname ?? "nottit.com")
   
   }, [])
   

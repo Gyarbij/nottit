@@ -227,7 +227,7 @@ const Feed = ({
         updateLoading(false);
       }
     };
-    const DOMAIN = window?.location?.hostname ?? 'www.troddit.com';
+    const DOMAIN = window?.location?.hostname ?? 'nottit.com';
     const manageData = async (data) => {
       if (asynccheck) {
         data?.token && context.setToken(data?.token);

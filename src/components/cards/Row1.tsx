@@ -61,8 +61,8 @@ const Row1 = ({
         {/* Thumbnail */}
         <a
           href={
-            `${post?.url?.replace("reddit.com", "troddit.com")}` ??
-            `https://troddit.com${post?.permalink}`
+            `${post?.url?.replace("reddit.com", "nottit.com")}` ??
+            `https://nottit.com${post?.permalink}`
           }
           target={"_blank"}
           rel="noreferrer"
@@ -286,7 +286,7 @@ const Row1 = ({
               />
             </div>
             <a
-              href={`${post?.url}` ?? "https://troddit.com"}
+              href={`${post?.url}` ?? "https://nottit.com"}
               target="_blank"
               rel="noreferrer"
             >

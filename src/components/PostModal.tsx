@@ -185,7 +185,7 @@ const PostModal = ({
 
   const [mediaInfo, setMediaInfo] = useState<any>();
   useEffect(() => {
-    const DOMAIN = window?.location?.hostname ?? 'www.troddit.com';
+    const DOMAIN = window?.location?.hostname ?? 'nottit.com';
     const checkPortrait = async () => {
       if (
         apost?.mediaInfo?.isPortrait === true ||

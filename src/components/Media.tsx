@@ -101,7 +101,7 @@ const Media = ({
   ]);
 
   useEffect(() => {
-    const DOMAIN = window?.location?.hostname ?? 'www.troddit.com'
+    const DOMAIN = window?.location?.hostname ?? 'nottit.com'
     const shouldLoad = () => {
       if (!post) return false;
       if (!post.url) return false;

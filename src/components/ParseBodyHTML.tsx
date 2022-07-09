@@ -41,7 +41,7 @@ const processingInstructions = [
 const ErrorFallBack = () => {
   return (
     <div className="text-sm text-th-red">
-      {"<troddit encountered an issue rendering this text>"}
+      {"<nottit encountered an issue rendering this text>"}
     </div>
   );
 };
@@ -94,7 +94,7 @@ const ParseBodyHTML = ({
     //     return "";
     //   }
     // };
-    const DOMAIN = window?.location?.host ?? "troddit.com"; 
+    const DOMAIN = window?.location?.host ?? "nottit.com"; 
 
     const blankTargets = (str) => {
       if (str?.includes("<a ")) {
