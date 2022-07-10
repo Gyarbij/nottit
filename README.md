@@ -1,11 +1,12 @@
 # Nottit
-A web client for Reddit with authenticated logins and a variety of browsing options based on [Troddit](https://github.com/gyarbij/nottit). 
+A progressive web app and client for Reddit with authenticated logins via the reddit API and a variety of browsing options based on [Troddit](https://hub.docker.com/r/bsyed/troddit/).
 
 ## Features
 
 - Secure logins with Reddit to enable voting, commenting, managing your subreddits and multireddits (aka feeds), and access to your personal front page. 
+- No ads.... like no effing ads, that was the whole point of this.
 - 'Offline mode' to follow subreddits and manage multis locally without login. Autogenerates a personal front page. 
-  - Visit your [subreddits multi](https://www.reddit.com/subreddits) and copy the multireddit link. Replace 'reddit' with 'nottit' in the URL and then use the 'Join All' option to quickly follow all subs locally. 
+  - Visit your [multireddit](https://www.reddit.com/subreddits) and copy the multireddit link. Replace 'reddit' with 'nottit' in the URL and then use the 'Join All' option to quickly follow all subs locally. 
 - Search Reddit for posts or subreddits quickly with auto-complete. 
 - Filter posts by type (Images, Video/GIFs, Links, Self)  
 - View posts in single column, custom multi-column with a grid-masonry layout, or a simple row mode. All with infinite-scrolling. 
@@ -47,6 +48,19 @@ The redirect uri should match the REDDIT_REDIRECT variable.
 ## Docker
 
 ### To Deploy the [Docker Image](https://hub.docker.com/r/gyarbij/nottit)
+
+```sh
+docker pull gyarbij/nottit
+docker run -d --name nottit -p 3000:3000 gyarbij/nottit
+```
+
+Alternatively for arm64: 
+
+```sh
+docker pull gyarbij/nottit:arm64
+```
+
+### Deploy as an Azure Web App 
 
 ```sh
 docker pull gyarbij/nottit
