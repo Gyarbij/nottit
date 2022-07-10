@@ -60,18 +60,27 @@ Alternatively for arm64:
 docker pull gyarbij/nottit:arm64
 ```
 
-### Deploy as an Azure Web App 
+### Deploy as an Azure Web App / AWS Lightsale Container
+
+To deploy as an azure web app, always use the :latest tag or the specify :amd64 as the arm64 image will not run on the linux asp!
+
+<img width="573" alt="Screenshot 2022-07-10 at 11 31 10" src="https://user-images.githubusercontent.com/49493993/178139457-c36f5ef4-3090-4013-96f4-07573285217a.png">
 
 ```sh
-docker pull gyarbij/nottit
-docker run -d --name nottit -p 3000:3000 gyarbij/nottit
+gyarbij/nottit:latest
 ```
 
-Alternatively for arm64: 
+Alternatively specificy amd64: 
 
 ```sh
-docker pull gyarbij/nottit:arm64
+gyarbij/nottit:amd64
 ```
+Enter the environment variables in 
+
+```sh
+YourWebApp > Settings > Configuration > Application settings
+```
+<img width="1284" alt="Screenshot 2022-07-10 at 11 39 20" src="https://user-images.githubusercontent.com/49493993/178139465-50114a82-bb3d-4342-a892-629ee732e72b.png">
 
 ### To Build the Image Yourself 
 
