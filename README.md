@@ -3,9 +3,11 @@ A progressive web app and client for Reddit with authenticated logins via the re
 
 ## Features
 
-- No trackers like on reddit.com and simple to deploy and host yourself if you're of the super paranoid variety (you're on reddit so probably)
-- Secure logins with Reddit to enable voting, commenting, managing your subreddits and multireddits (aka feeds), and access to your personal front page. 
+- No trackers like those on reddit.com 
 - No ads.... like no effing ads, that was the whole point of this.
+- Secure by design with constntly udpated packages and dependencies, this is specifically security focused so functionality may be lost in the interest of security due to breaking changes in package updates.
+- Simple to deploy and host yourself if you're of the super paranoid variety (you're on reddit so probably)
+- Secure logins with Reddit to enable voting, commenting, managing your subreddits and multireddits (aka feeds), and access to your personal front page. 
 - 'Offline mode' to follow subreddits and manage multis locally without login. Autogenerates a personal front page. 
   - Visit your [multireddit](https://www.reddit.com/subreddits) and copy the multireddit link. Replace 'reddit' with 'nottit' in the URL and then use the 'Join All' option to quickly follow all subs locally. 
 - Search Reddit for posts or subreddits quickly with auto-complete. 
