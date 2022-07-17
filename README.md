@@ -5,17 +5,17 @@ A progressive web app and client for Reddit with authenticated logins via the re
 
 - No trackers like those on reddit.com 
 - No ads.... like no effing ads, that was the whole point of this.
-- Secure by design with constntly udpated packages and dependencies, this is specifically security focused so functionality may be lost in the interest of security due to breaking changes in package updates.
+- Secure by design with constantly updated packages and dependencies, this is specifically security focused, therefore functionality may be lost in the interest of security due to breaking changes in package updates.
 - Simple to deploy and host yourself if you're of the super paranoid variety (you're on reddit so probably)
 - Secure logins with Reddit to enable voting, commenting, managing your subreddits and multireddits (aka feeds), and access to your personal front page. 
-- 'Offline mode' to follow subreddits and manage multis locally without login. Autogenerates a personal front page. 
+- 'Offline mode' to follow subreddits and manage multiredditss locally without login. Autogenerates a personal front page. 
   - Visit your [multireddit](https://www.reddit.com/subreddits) and copy the multireddit link. Replace 'reddit' with 'nottit' in the URL and then use the 'Join All' option to quickly follow all subs locally. 
 - Search Reddit for posts or subreddits quickly with auto-complete. 
 - Filter posts by type (Images, Video/GIFs, Links, Self)  
 - View posts in single column, custom multi-column with a grid-masonry layout, or a simple row mode. All with infinite-scrolling. 
-- Choose your card style: Original for full post text in card, Compact to exclude post text, or Media to hide all text and card padding. 
-- Gallery view: Click on a post and navigate through the feed with on screen buttons or your arrow keys. Shows the post content as well as its comments from Reddit. Smart portrait mode to automatically arrange vertical photos and videos side by side with comments. 
-- Hover mouse over Reddit videos to play. Enable to Autoplay option to play videos automatically when entering the viewport. Enable the Audio option to play sound on hover as well.
+- Choose your card style: Original for full post text in card, compact to exclude post text, or Media to hide all text and card padding. 
+- Gallery view: Click on a post and navigate through the feed with on-screen buttons or your arrow keys. Shows the post content as well as its comments from Reddit. Smart portrait mode to automatically arrange vertical photos and videos side by side with comments. 
+- Hover mouse over Reddit videos to play. Enable the autoplay option to play videos automatically when entering the viewport. Enable the Audio option to play sound on hover as well.
 - Responsive desktop and mobile layouts.  
 - PWA to download to your computer or phone. 
 - Docker support
@@ -23,7 +23,7 @@ A progressive web app and client for Reddit with authenticated logins via the re
 # Deploying
 
 ### Environment Variables
-To use login functionality the following environment variables need to be defined in your compoe file, cloud host settings or a .env.local file placed in the root directory for non docker deployments: 
+To use login functionality the following environment variables need to be defined in your compose file, cloud host settings or a .env.local file placed in the root directory for non docker deployments: 
 
 CLIENT_ID=\<ID of your Reddit app>\
 CLIENT_SECRET=\<Secret from your Reddit app>\
@@ -48,7 +48,7 @@ docker pull gyarbij/nottit:arm64
 
 ### Deploy as an Azure Web App
 
-To deploy as an azure web app, always use the :latest tag or the specify :amd64 as the arm64 image will not run on the linux asp!
+To deploy as an azure web app, always use the :latest tag or specify :amd64 as the arm64 image will not run on the linux ASP!
 
 <img width="573" alt="Screenshot 2022-07-10 at 11 31 10" src="https://user-images.githubusercontent.com/49493993/178139457-c36f5ef4-3090-4013-96f4-07573285217a.png">
 
@@ -56,7 +56,7 @@ To deploy as an azure web app, always use the :latest tag or the specify :amd64 
 gyarbij/nottit:latest
 ```
 
-Alternatively specificy amd64: 
+Alternatively specify amd64: 
 
 ```sh
 gyarbij/nottit:amd64
@@ -74,7 +74,7 @@ To deploy on lightsail, always use the <:latest tag> or specify <:amd64>
 
 <img width="737" alt="Screenshot 2022-07-10 at 11 49 21" src="https://user-images.githubusercontent.com/49493993/178139925-de5fbb1f-c96d-4646-b62d-cbafa618a4e6.png">
 
-Additionally open port 3000 in the deployment setup
+Additionally, open port 3000 in the deployment setup
 
 <img width="734" alt="Screenshot 2022-07-10 at 11 56 05" src="https://user-images.githubusercontent.com/49493993/178139991-ffbeb5ee-ed2f-48f6-a0d2-726cc359d3bd.png">
 
@@ -109,11 +109,11 @@ yarn dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To contribute create a branch and submit a PR!
+To contribute, create a branch and submit a PR!
 
 
 ### Environment Variables
-To use login functionality the following environment variables need to be defined in a .env.local file placed in the root directory: 
+To use login functionality, the following environment variables need to be defined in a .env.local file placed in the root directory: 
 
 CLIENT_ID=\<ID of your Reddit app>\
 CLIENT_SECRET=\<Secret from your Reddit app>\
