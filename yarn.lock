@@ -3660,10 +3660,10 @@ markdown-draft-js@^2.4.0:
   dependencies:
     remarkable "^2.0.1"
 
-masonic@^3.6.4:
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/masonic/-/masonic-3.6.4.tgz#932709b405aa24221b66bcafeb3d75c807b549d6"
-  integrity sha512-v2Tu6mbr+HFojQizmiB9YPSbSvHDlw8K+ywTWmbbruJZwBNcM1t0AdOEwmrzXTXXvLIXHwWJsSUAwDlDfmQ2ZQ==
+masonic@^3.6.5:
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/masonic/-/masonic-3.6.5.tgz#664ea2755010c993717ed9b329e29292dbc0d36d"
+  integrity sha512-BjGEaYPeHD2fpcepZct3gSkzPyMO9h+Rshxvzz4gwEWbtZP4spxxnKMtJ6z5jcFWxpv4DhbpQcQRg4wyuwoo+g==
   dependencies:
     "@essentials/memoize-one" "^1.1.0"
     "@essentials/one-key-map" "^1.2.0"
