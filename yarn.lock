@@ -4087,10 +4087,10 @@ next-cookies@^2.0.3:
   dependencies:
     universal-cookie "^4.0.2"
 
-next-plausible@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/next-plausible/-/next-plausible-3.2.0.tgz#d801346253e0c1cf64a02b9fc3a42050455cbc47"
-  integrity sha512-OlYcLXBG3kKd/fKMpm8SZ5IkUKSFm1/8t7cv6e5bewIqlpdZpdWuSrjbdJpbmutb2KPLXHzilKp09zmDGjy9KQ==
+next-plausible@^3.3.1:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/next-plausible/-/next-plausible-3.6.2.tgz#262abdbe4b566d8a26505bba0179306ece8c3167"
+  integrity sha512-WhyFo0ZjoActGHFtkBiTxgZ0ALLkrKEqpgH/G2JXFqfg2Dx6/ne2fjKvXDGyyL4IYIXnWz/UFJFq40TxbGa5zA==
 
 next-pwa@^5.6.0:
   version "5.6.0"
