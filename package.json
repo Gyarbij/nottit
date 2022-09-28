@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.6.4",
+    "@headlessui/react": "^1.7.0",
     "@react-hook/window-size": "^3.0.7",
     "axios": "^0.27.2",
     "draft-js": "^0.11.7",
