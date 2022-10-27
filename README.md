@@ -1,3 +1,5 @@
+[![CodeQL](https://github.com/Gyarbij/nottit/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Gyarbij/nottit/actions/workflows/codeql-analysis.yml) [![Docker-Buildx](https://github.com/Gyarbij/nottit/actions/workflows/image.yml/badge.svg)](https://github.com/Gyarbij/nottit/actions/workflows/image.yml) [![pages-build-deployment](https://github.com/Gyarbij/nottit/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Gyarbij/nottit/actions/workflows/pages/pages-build-deployment)
+
 # nottit
 A progressive web app and client for Reddit with authenticated logins via the reddit API and a variety of browsing options based on [Troddit](https://hub.docker.com/r/bsyed/troddit/). It also
 
