@@ -50,4 +50,4 @@
     "eslint-config-next": "13.1.6",
     "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.21",
-    "tailwind-scrollbar": "^3.0.0
+    "tailwind-scrollbar": "^3.0.0"
